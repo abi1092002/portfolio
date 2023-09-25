@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abijith Wilson</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bbac06ad12.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!------------- home --------------->
+
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="/img/Untitled_design__7_-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#social-media">Social Media</a></li>
+                <i class="fa-solid fa-arrow-right-from-bracket" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Front-end Developer</p>
+            <h1>Hi, I 'm <span>Abijith Wilson</span> <br>From India</h1>
+        </div>
+    </div>
+   </div>
+
+   <!----------------  about  ----------------->
+
+   <div id="about">
+       <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/img/abi11.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm looking for a challenging job at a reputable company where I can develop new abilities,
+                     increase my knowledge, and use what I've learned.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Designer</span><br>Designing web interface</li>
+                        <li><span>Video Editor</span><br>Editing creative videos using Davinci resolve</li>
+                        <li><span>Photoshop</span><br>Designing posters,brochure</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>React js Training at Brototype</li>
+                        <li><span>2022 - 2023</span><br>IT Apprentice in NIMIT,Pongam</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>React js Training at Brototype</li>
+                        <li><span>2023</span><br>Graduate BCA from Calicut University</li>
+                        <li><span>2020</span><br>Higher Secondary Education from State Board</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+       </div>
+   </div>
+
+    <!----------------- services ----------------->
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>creatively and punctually complete the design of the web</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>creatively and punctually complete the video on the time</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <h2>Photoshop</h2>
+                <p>creatively and punctually complete the design of the poster and brochure</p>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!----------------------- portfolio ------------------------>
+
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/img/work1.png">
+                <div class="layer">
+                    <h3>Online Turf Booking</h3>
+                    <p>This web applicaton helps to book the turf slot through online</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/img/work2.png">
+                <div class="layer">
+                    <h3>Movie Ticket Booking</h3>
+                    <p>This web applicaton helps to book the movie tickets through online</p>
+                    <a href="https://abi1092002.github.io/bookmytickets/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/img/work3.png">
+                <div class="layer">
+                    <h3>Online Movie Streaming</h3>
+                    <p>This web applicaton helps to watch movies or series through online</p>
+                    <a href="https://abi1092002.github.io/hostar/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="work.html" class="btn">See more</a>
+    </div>
+   </div>
+
+
+   <!----------------------- contact ------------------------>
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title2">Contact Me</h1>
+               <p><i class="fa-solid fa-location-dot"></i>Angamaly, Kerala</p>
+               <p><i class="fa-solid fa-envelope"></i>abijithkw44@gmail.com</p>
+               <p><i class="fa-solid fa-phone"></i>7034097451</p>
+               <a href="/img/ABIJITH WILSON resume.pdf" class="btn2" download>Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Send</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-------------------------- Social media ---------------------------->
+
+   <div id="social-media">
+    <div class="container1">
+        <h1 class="sub-title3">Social Media</h1>
+        <div class="social-icons">
+            <div class="icons">
+                <i class="fa-brands fa-instagram" style="color:rgb(215, 13, 141);"></i>
+                <a href="https://www.instagram.com/_a_b_i_1_0_/" class="btn4">Click Here</a>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-youtube" style="color: rgb(252, 10, 10);"></i>
+                <a href="https://www.youtube.com/@funcutz4" class="btn4">Click Here</a>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-whatsapp" style="color: green;"></i>
+                <a href="https://wa.me/qr/JY6UUFYAQZLTL1" class="btn4">Click Here</a>
+            </div>
+            
+        </div>
+    </div>
+   </div>
+
+   <!-------------------------- footer ---------------------------->
+   <footer>
+    <p>Designed with <i class="fa-solid fa-heart"></i> by Abi</p>
+    <p>Copyright <i class="fa-regular fa-copyright"></i> 2023 </p>
+   </footer>
+
+   <!-------------------------- script (js) ---------------------------->
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+
+</script>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzB6CkBAXHLbHgVmRnjjNHKd2XxnDDK4T3XxKg-Kddg_zCxPKhXHC_sp7_Y074MG9MD/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message send successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+</body>
+</html>
